@@ -1,0 +1,77 @@
+{
+    "workbench.colorTheme": "GitHub Dark",
+    "workbench.iconTheme": "vscode-icons",
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    },
+    // Code mượt mà như nàng
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.quickSuggestionsDelay": 0,
+    "editor.renderWhitespace": "none",
+    "editor.smoothScrolling": true,
+    "editor.minimap.enabled": false,
+    "editor.folding": false,
+    "editor.stickyScroll.enabled": false,
+    "editor.cursorSurroundingLines": 2,
+    "editor.cursorWidth": 2,
+    "redhat.telemetry.enabled": true,
+    "code-runner.runInTerminal": true,
+    "material-ui-snippets.showNotesOnStartup": false,
+    // Hết phần code mượt mà như nàng
+
+    // Gợi ý học React
+    "javascript.suggest.enabled": true,
+    "typescript.suggest.enabled": true,
+    "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": true
+    },
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "[html]": {
+        "editor.defaultFormatter": "mohd-akram.vscode-html-format"
+    },
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        },
+        "Ubuntu-20.04 (WSL)": {
+            "path": "C:\\WINDOWS\\System32\\wsl.exe",
+            "args": [
+                "-d",
+                "Ubuntu-20.04"
+            ]
+        }
+    },
+    "terminal.integrated.suggest.enabled": true,
+    "python.createEnvironment.trigger": "off",
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": "off"
+    }
+    
+
+}
